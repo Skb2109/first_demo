@@ -1,0 +1,11 @@
+import tkinter as tk
+
+
+
+root= tk.Tk()
+root.title("GUI")
+root.geometry("100x150")
+
+tk.Label(root, text="tkinter working").pack(pady=30)
+
+root.mainloop()
